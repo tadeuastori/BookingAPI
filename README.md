@@ -34,6 +34,13 @@ When running, a page will open in the browser where the created EndPoints will b
 > 4. To simplify, the API is insecure.
 
 
+## References
+> 1. [Overview about Booking System Rules](https://smallbusiness.co.uk/how-to-create-an-online-booking-system-2550306/)
+> 2. [Informations about DDD pt1](https://medium.com/@ericandrade_24404/parte-01-criando-arquitetura-em-camadas-com-ddd-inje%C3%A7%C3%A3o-de-dep-ef-60b851c88461)
+> 3. [Informations about DDD pt2](https://medium.com/@ericandrade_24404/parte-02-criando-arquitetura-em-camadas-com-ddd-inje%C3%A7%C3%A3o-de-dep-ef-defac0005667)
+> 4. [Tips about how to configure relationships in Entity Core 5](https://www.michalbialecki.com/2020/10/02/how-to-configure-relationships-in-entity-framework-core-5/)
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
