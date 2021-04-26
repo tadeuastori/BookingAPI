@@ -9,10 +9,10 @@ API developed to booking hotel room scheduling.
 
 ## Executing the project
 
-1. Go to ***..\Booking\src\Booking.Services.Api\appsettings.json*** file and set up the SQL Server ConnectionString;
-2. In the ***Package Manager Console***, set up the ***Defaul Project*** to ***src\Booking.Infra.Data\Booking.Infra.Data***
+1. Go to ***..\BookingAPI\src\BookingAPI.Services.Api\appsettings.json*** file and set up the SQL Server ConnectionString;
+2. In the ***Package Manager Console***, set up the ***Defaul Project*** to ***src\BookingAPI.Infra.Data\BookingAPI.Infra.Data***
 3. In the ***Package Manager Console***, run Migration to create the database. ```update-database```
-4. Set up the ***src\Booking.Services.Api\Booking.Services.Api*** as Startup Project.
+4. Set up the ***src\BookingAPI.Services.Api\BookingAPI.Services.Api*** as Startup Project.
 5. Run the project.
 
 ## Usage
