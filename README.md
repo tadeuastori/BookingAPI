@@ -22,7 +22,7 @@ When running, a page will open in the browser where the created EndPoints will b
 
 ## Used Technology
 - .Net 5
-- Enfity Core
+- Entity Core
 - Fluent Validation
 - AutoMapper
 - Dependency Injection
