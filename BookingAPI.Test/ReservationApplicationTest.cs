@@ -11,7 +11,7 @@ using Xunit;
 namespace BookingAPI.Test
 {
     /// <summary>
-    /// This Automation Test needs to previous database data inserted
+    /// For automated testing, data must be previously inserted into the database
     /// </summary>
     public class ReservationApplicationTest : IClassFixture<WebApplicationFactory<Services.Api.Startup>>
     {
