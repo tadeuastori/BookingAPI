@@ -16,6 +16,7 @@ The project can be tested using the Swagger already added to the project.
 When running, a page will open in the browser where the created EndPoints will be available for testing.
 
 ## Project Test (EndPoints)
+> For automated testing, data must be previously inserted into the database
 - SearchBookingByCode
 - GetListReservationsAsync
 - CheckAvailableAsync
