@@ -17,22 +17,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.1 - Data", "05.1 - Data"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.2 - CrossCutting", "05.2 - CrossCutting", "{F666454C-E543-4ACC-B006-56A383BA8DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Application", "BookingAPI.Application\BookingAPI.Application.csproj", "{F4C356EC-9AEF-4A0F-AC83-26C6E0F6B420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingAPI.Application", "BookingAPI.Application\BookingAPI.Application.csproj", "{F4C356EC-9AEF-4A0F-AC83-26C6E0F6B420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Domain", "BookingAPI.Domain\BookingAPI.Domain.csproj", "{5019815C-6B30-4699-BD79-6724CDFDCD53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingAPI.Domain", "BookingAPI.Domain\BookingAPI.Domain.csproj", "{5019815C-6B30-4699-BD79-6724CDFDCD53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Infra.Data", "BookingAPI.Infra.Data\BookingAPI.Infra.Data.csproj", "{F79391D1-5D21-4E2E-807E-79D7E9EF04CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingAPI.Infra.Data", "BookingAPI.Infra.Data\BookingAPI.Infra.Data.csproj", "{F79391D1-5D21-4E2E-807E-79D7E9EF04CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Infra.CrossCutting.Infrastructure", "BookingAPI.Infra.CrossCutting.Infrastructure\BookingAPI.Infra.CrossCutting.Infrastructure.csproj", "{C3259DDC-EEBF-4B66-A40B-346665828A20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingAPI.Infra.CrossCutting.Infrastructure", "BookingAPI.Infra.CrossCutting.Infrastructure\BookingAPI.Infra.CrossCutting.Infrastructure.csproj", "{C3259DDC-EEBF-4B66-A40B-346665828A20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Infra.CrossCutting.Ioc", "BookingAPI.Infra.CrossCutting.Ioc\BookingAPI.Infra.CrossCutting.Ioc.csproj", "{C5AE96A6-3410-42B4-AA94-9D035709A71E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingAPI.Infra.CrossCutting.Ioc", "BookingAPI.Infra.CrossCutting.Ioc\BookingAPI.Infra.CrossCutting.Ioc.csproj", "{C5AE96A6-3410-42B4-AA94-9D035709A71E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Services.Api", "BookingAPI.Services.Api\BookingAPI.Services.Api.csproj", "{CD70DC36-BBB3-47B5-ACA2-6C6D0B68F805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingAPI.Services.Api", "BookingAPI.Services.Api\BookingAPI.Services.Api.csproj", "{CD70DC36-BBB3-47B5-ACA2-6C6D0B68F805}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{12304D9D-3836-4F85-A49F-D4EC42E5AA82}"
 	ProjectSection(SolutionItems) = preProject
 		Coming Soon.txt = Coming Soon.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0F6F5AF1-8CED-4E9C-A2FF-7D06B38CBB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Test", "BookingAPI.Test\BookingAPI.Test.csproj", "{04BF9027-FF91-4E5B-85DD-433B54A690A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +68,10 @@ Global
 		{CD70DC36-BBB3-47B5-ACA2-6C6D0B68F805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD70DC36-BBB3-47B5-ACA2-6C6D0B68F805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD70DC36-BBB3-47B5-ACA2-6C6D0B68F805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BF9027-FF91-4E5B-85DD-433B54A690A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BF9027-FF91-4E5B-85DD-433B54A690A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BF9027-FF91-4E5B-85DD-433B54A690A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BF9027-FF91-4E5B-85DD-433B54A690A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +90,7 @@ Global
 		{C5AE96A6-3410-42B4-AA94-9D035709A71E} = {F666454C-E543-4ACC-B006-56A383BA8DDE}
 		{CD70DC36-BBB3-47B5-ACA2-6C6D0B68F805} = {3CB3DA63-6BCB-42F9-84E5-509B386F5259}
 		{12304D9D-3836-4F85-A49F-D4EC42E5AA82} = {B496BECD-AD68-40B3-A9F4-7D228BBD4E01}
+		{04BF9027-FF91-4E5B-85DD-433B54A690A9} = {0F6F5AF1-8CED-4E9C-A2FF-7D06B38CBB4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51588C95-B433-4175-B7BB-D81269CC7203}
